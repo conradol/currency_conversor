@@ -1,29 +1,29 @@
 <template>
   <div id="app">
-    <h1 style="text-align: center">Conversor de Moedas</h1>
+    <h1 style="text-align: center">Currency Conversor</h1>
     <div class="line">
-      <Conversor moeda-a="USD" moeda-b="BRL"/>
-      <Conversor moeda-a="BRL" moeda-b="USD"/>
+      <Conversor currency-a="USD" currency-b="BRL"/>
+      <Conversor currency-a="BRL" currency-b="USD"/>
     </div>
     <div class="line">
-      <Conversor moeda-a="CAD" moeda-b="BRL"/>
-      <Conversor moeda-a="BRL" moeda-b="CAD"/>
+      <Conversor currency-a="CAD" currency-b="BRL"/>
+      <Conversor currency-a="BRL" currency-b="CAD"/>
     </div>
     <div class="line">
-      <Conversor moeda-a="EUR" moeda-b="BRL"/>
-      <Conversor moeda-a="BRL" moeda-b="EUR"/>
+      <Conversor currency-a="EUR" currency-b="BRL"/>
+      <Conversor currency-a="BRL" currency-b="EUR"/>
     </div>
     <div class="line">
-      <Conversor moeda-a="GBP" moeda-b="BRL"/>
-      <Conversor moeda-a="BRL" moeda-b="GBP"/>
+      <Conversor currency-a="GBP" currency-b="BRL"/>
+      <Conversor currency-a="BRL" currency-b="GBP"/>
     </div>
     <div class="line">
-      <Conversor moeda-a="UYU" moeda-b="BRL"/>
-      <Conversor moeda-a="BRL" moeda-b="UYU"/>
+      <Conversor currency-a="UYU" currency-b="BRL"/>
+      <Conversor currency-a="BRL" currency-b="UYU"/>
     </div>
     <div class="line">
-      <Conversor moeda-a="ARS" moeda-b="BRL"/>
-      <Conversor moeda-a="BRL" moeda-b="ARS"/>
+      <Conversor currency-a="ARS" currency-b="BRL"/>
+      <Conversor currency-a="BRL" currency-b="ARS"/>
     </div>
   </div>
 </template>
